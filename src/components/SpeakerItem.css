@@ -1,0 +1,26 @@
+a {
+  text-decoration: none;
+  color: rgb(110, 11, 23);
+}
+
+.speaker-image {
+  max-width: 300px;
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.speaker {
+  margin: 30px;
+}
+
+.name {
+  margin: 5px;
+}
+
+.website {
+  margin: 5px;
+}
+
+.lecture {
+  margin: 5px;
+}
