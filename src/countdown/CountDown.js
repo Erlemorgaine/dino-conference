@@ -1,5 +1,5 @@
 import DateBetween from './DateBetween'
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 import './CountDown.css'
 
 export default class Countdown extends Component {
@@ -25,7 +25,9 @@ export default class Countdown extends Component {
 
     if(remaining === false){
       window.clearInterval(this.interval)
-      this.props.options['cb'] ? this.props.options.cb() :  false
+      if (this.props.options['cb']) {
+        this.props.options.cb()
+      }
     }
 
     this.setState({

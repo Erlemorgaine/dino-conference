@@ -83,3 +83,12 @@ li:nth-child(2n + 1)::after {
   margin-left: -3px;
 
 }
+
+.time {
+  color: rgb(158, 60, 43);
+  margin: 5px;
+}
+
+.activity {
+  margin: 5px;
+}

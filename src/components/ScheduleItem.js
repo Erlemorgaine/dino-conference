@@ -6,7 +6,8 @@ class ScheduleItem extends PureComponent {
   renderSchedule = (schedule, index) => {
     return(
       <li key={index}>
-        { schedule.time } - { schedule.activity }
+        <div className="time">{ schedule.time }</div>
+        <div className="activity">{ schedule.activity }</div>
       </li>
     )
   }
