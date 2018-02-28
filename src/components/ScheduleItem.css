@@ -2,11 +2,11 @@
   box-sizing: border-box;
 }
 
-ul {
+.schedule-list {
   list-style-type: none;
 }
 
-li {
+.schedule-item {
   padding: 10px 40px;
   position: relative;
   background-color: #fff;
@@ -14,7 +14,7 @@ li {
   box-shadow: 0 0 12px 0 rgba(79, 80, 79, 0.39)
 }
 
-li::after {
+.schedule-item::after {
   content: '';
   position: absolute;
   width: 25px;
@@ -26,17 +26,17 @@ li::after {
   z-index: 1;
 }
 
-li:nth-child(2n) {
+.schedule-item:nth-child(2n) {
   left: 0;
   margin: 30px -32px;
 }
 
-li:nth-child(2n + 1) {
+.schedule-item:nth-child(2n + 1) {
   left: 50%;
   margin: 30px 28px;
 }
 
-li:nth-child(2n)::before {
+.schedule-item:nth-child(2n)::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -49,7 +49,7 @@ li:nth-child(2n)::before {
   border-color: transparent transparent transparent white;
 }
 
-li:nth-child(2n + 1)::before {
+.schedule-item:nth-child(2n + 1)::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -62,7 +62,7 @@ li:nth-child(2n + 1)::before {
   border-color: transparent white transparent transparent;
 }
 
-li:nth-child(2n + 1)::after {
+.schedule-item:nth-child(2n + 1)::after {
   left: -43px;
 }
 

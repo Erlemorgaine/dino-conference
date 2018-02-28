@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react'
 import SpeakerItem from './SpeakerItem'
-import './ScheduleContainer.css'
 
 class SpeakerContainer extends PureComponent {
 

@@ -1,0 +1,11 @@
+.participants-list {
+  text-align: left;
+}
+
+.participant-item {
+  margin: 10px;
+}
+
+.participant-name {
+  font-size: 1.2em;
+}

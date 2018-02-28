@@ -4,9 +4,8 @@ import './SpeakerItem.css'
 class SpeakerItem extends PureComponent {
 
   render() {
-
     const { speaker } = this.props
-    console.log(speaker.picture)
+
     return (
       <div className="speaker">
         <img className="speaker-image" src={ speaker.picture } alt={ speaker.name }/>
