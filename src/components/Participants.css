@@ -2,14 +2,27 @@
   background-color: rgba(163, 121, 114, 0.08);
 }
 
-.participants-list {
+/* .participants-list {
   text-align: left;
-}
+} */
 
 .participant-item {
-  margin: 10px;
+  margin: 10px 40px;
 }
 
 .participant-name {
   font-size: 1.2em;
+}
+
+
+.participants-list {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 10px;
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 80px;
 }

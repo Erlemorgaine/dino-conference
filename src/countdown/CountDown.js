@@ -39,10 +39,10 @@ export default class Countdown extends Component {
     const countdown = this.state.remaining
     return (
       <div className="react-count-down">
-       <div className="counter day">{ countdown[0] }</div>
-       <div className="counter hour">{ countdown[1] }</div>
-       <div className="counter minute">{ countdown[2] }</div>
-       <div className="counter second">{ countdown[3] }</div>
+       {countdown[0] ? <div className="counter day">{ countdown[0] }</div> : ''}
+       {countdown[1] ? <div className="counter hour">{ countdown[1] }</div> : ''}
+       {countdown[2] ? <div className="counter minute">{ countdown[2] }</div> : ''}
+       {countdown[3] ? <div className="counter second">{ countdown[3] }</div> : ''}
       </div>
     )
   };

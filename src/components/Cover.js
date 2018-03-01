@@ -5,7 +5,7 @@ import './Cover.css'
 class Cover extends PureComponent {
 
   render() {
-    const OPTIONS = { endDate: '03/01/2018 10:55 AM'}
+    const OPTIONS = { endDate: '04/01/2018 09:40 AM'}
     return (
       <div className="Cover">
         <h1 className="cover-text">Institute name</h1>
