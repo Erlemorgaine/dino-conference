@@ -1,0 +1,37 @@
+.FAQContainer {
+  background-color: rgba(163, 121, 114, 0.08);
+}
+
+.faq-list {
+  margin-bottom: 80px;
+}
+
+.faq-item {
+  text-align: left;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15), 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.arrow {
+  color: rgb(148, 48, 16);
+}
+
+.faq-title {
+  background-color: white;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+.faq-title:hover {
+  color: rgb(150, 61, 49);
+  cursor: pointer;
+}
+
+.faq-content {
+  border-top: 2px solid rgb(148, 48, 16);
+  background-color: white;
+  padding: 20px;
+  margin: 0;
+}

@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-//import './FAQContainer.css'
+import './FAQContainer.css'
 
 class FAQContainer extends PureComponent {
   constructor(props) {
@@ -33,8 +33,10 @@ class FAQContainer extends PureComponent {
 
   renderFAQ = (faq, index) => {
     return(
-      <div key={ index }>
-        <button className="faq-title" onClick={() => this.setContent(index)}>{ faq.title }</button>
+      <div className="faq-item" key={ index }>
+        <div className="faq-title" onClick={() => this.setContent(index)}>
+        <span className="arrow">~ </span> { faq.title }
+        </div>
         { this.showContent(faq.content, index) }
       </div>
     )
@@ -44,7 +46,7 @@ class FAQContainer extends PureComponent {
     return (
       <div className="FAQContainer block">
         <h1>FAQ</h1>
-        <div>
+        <div className="faq-list">
           { this.props.faqs.map(this.renderFAQ) }
         </div>
       </div>

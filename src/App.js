@@ -6,6 +6,8 @@ import SpeakerContainer from './components/SpeakerContainer'
 import FAQContainer from './components/FAQContainer'
 import Participants from './components/Participants'
 import Venue from './components/Venue'
+import Registration from './components/Registration'
+import Contact from './components/Contact'
 import './App.css'
 import weekSchedule from './fixtures/weekSchedule'
 import speakers from './fixtures/speakers'
@@ -33,6 +35,8 @@ class App extends Component {
           <Venue />
         </div>
         <FAQContainer faqs={faqs}/>
+        <Registration />
+        <Contact />
       </div>
     );
   }

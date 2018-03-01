@@ -10,7 +10,7 @@ class ScheduleButton extends Component {
   render() {
     return (
       <span className="ScheduleButton">
-        <button onClick={ this.handleClick }>{ this.props.day }</button>
+        <button className="schedule-button" onClick={ this.handleClick }>{ this.props.day }</button>
       </span>
     );
   }
