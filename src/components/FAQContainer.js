@@ -21,10 +21,19 @@ class FAQContainer extends PureComponent {
   }
 
   showContent = (content, index) => {
+    const contentArray = content.split('\n')
+
     if (this.state.show === index) {
       return (
         <div className="faq-content">
-          { content }
+          { contentArray.map((c) => {
+            if (c === '') {
+              return(<br/>)
+            }
+            return(
+              <p>{c}</p>
+            )
+          }) }
         </div>
       )
     }
@@ -35,7 +44,7 @@ class FAQContainer extends PureComponent {
     return(
       <div className="faq-item" key={ index }>
         <div className="faq-title" onClick={() => this.setContent(index)}>
-        <span className="arrow">~ </span> { faq.title }
+          <span className="arrow">~ </span> { faq.title }
         </div>
         { this.showContent(faq.content, index) }
       </div>
@@ -44,7 +53,7 @@ class FAQContainer extends PureComponent {
 
   render() {
     return (
-      <div className="FAQContainer block">
+      <div className="FAQContainer block color-block" id="faq">
         <h1>FAQ</h1>
         <div className="faq-list">
           { this.props.faqs.map(this.renderFAQ) }

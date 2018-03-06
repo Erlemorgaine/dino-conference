@@ -1,6 +1,5 @@
 a {
   text-decoration: none;
-  color: rgb(158, 39, 27);
 }
 
 .speaker-image {
@@ -11,6 +10,7 @@ a {
 
 .speaker {
   margin: 30px;
+  max-width: 400px;
 }
 
 .name {
@@ -23,4 +23,19 @@ a {
 
 .lecture {
   margin: 5px;
+}
+
+.abstract {
+  color: rgb(16, 43, 124)
+}
+
+.abstract:hover {
+  color: rgb(16, 43, 124);
+  cursor: pointer;
+}
+
+.abstract-content {
+  margin-top: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15), 0 2px 2px 0 rgba(0, 0, 0, 0.15);
 }

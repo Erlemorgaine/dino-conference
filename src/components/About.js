@@ -1,13 +1,30 @@
 import React, { Component } from 'react'
+import './About.css'
 
 class About extends Component {
   render() {
     return (
-      <div className="block">
+      <div className="About block color-block" id="about">
         <h1 className="about">About The Conference</h1>
-        <div className="text">De dinosauriërs of dinosaurussen — de eerste benaming is de vertaling in het Nederlands van Dinosauria, de wetenschappelijke naam van de groep — vormen een diergroep, behorend tot de Archosauria, die stamt uit het Mesozoïcum.
-
-De Dinosauria ontstonden ongeveer 230 miljoen jaar geleden in het Trias, als afsplitsing binnen de ruimere groep van de Dinosauriformes. De eerste dinosauriër was een kleine tweevoetige vleeseter. Die was de directe voorouder van de twee hoofdgroepen waarin alle andere dinosauriërs onderverdeeld kunnen worden: de Saurischia en de Ornithischia. In deze beide groepen ontwikkelden zich al snel ook plantenetende soorten. De dinosauriërs werden dominant tegen het eind van het Trias, toen op het land de meeste andere grote dieren uitstierven. Tijdens het hierop volgende Jura en Krijt waren de dinosauriërs 140 miljoen jaar lang de heersende landdieren, de grootste die ooit geleefd hebben. Duizenden soorten, vleeseters en planteneters, ontwikkelden zich in allerlei vormen, mede door het uit elkaar bewegen van de continenten. De zeereptielen uit die tijd en de pterosauriërs, vliegende reptielen, waren echter geen dinosauriërs. Op het eind van het Krijt, 66 miljoen jaar geleden, stierven de meeste dinosauriërs uit, wellicht ten gevolge van een meteorietinslag. Nog levende dinosauriërs zijn de vogels.
+        <div className="about-text">
+          <p>This is a Summer School of the SFB/TRR 45 Bonn-Essen-Mainz financed by the DFG (Deutsche Forschungsgemeinschaft). It will take place from September 10th until September 14th, 2018 at the Università degli studi di Salerno (Italy). To register, please scroll down.
+          </p>
+          <br/>
+          <p>This summer school is intended for advanced master students, PhD students, and young researchers in algebra, number theory and geometry.</p>
+          <br/>
+          <p>The school consists of four mini-courses of four 1-hour classes each,
+          plus three research talks.
+          During the week, two sessions for questions of the students to the lecturers of the mini-courses are also scheduled.
+          </p>
+          <br/>
+          <div className='organisers'>
+            <strong className='organisers-list'>Organisers:</strong>
+            <ul className='organisers-list'>
+              <li className='organisers-item'>Dino Festi - <a href="">Personal website</a></li>
+              <li className='organisers-item'>Ariyan Javanpeykar - <a href="">Personal website</a></li>
+              <li className='organisers-item'>Davide Cesare Veniani - <a href="">Personal website</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     );

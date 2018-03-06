@@ -1,0 +1,15 @@
+.about-text {
+  text-align: left;
+}
+
+.organisers {
+  display: flex;
+}
+
+.organisers-list {
+  margin-right: 35px;
+}
+
+.organisers-item {
+  flex-direction: column;
+}

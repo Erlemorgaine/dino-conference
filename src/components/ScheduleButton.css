@@ -1,17 +1,17 @@
 .schedule-button {
   padding: 20px;
   margin: 20px;
-  border: 1px solid rgb(102, 15, 20);
+  border: 1px solid rgb(16, 43, 124);
   border-radius: 15px;
 }
 
 .schedule-button:hover {
-  background-color: rgb(57, 16, 18);
+  background-color: rgb(17, 65, 158);
   color: white;
 }
 
 .schedule-button:focus {
   outline: none;
-  background-color: rgb(57, 16, 18);
+  background-color: rgb(17, 65, 158);
   color: white;
 }

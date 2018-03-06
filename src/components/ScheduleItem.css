@@ -20,7 +20,7 @@
   width: 25px;
   height: 25px;
   right: -43px;
-  background-color: rgb(135, 39, 9);
+  background-color: rgb(16, 43, 124);
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -76,7 +76,7 @@
   content: '';
   position: absolute;
   width: 2px;
-  background-color: rgb(135, 39, 9);
+  background-color: rgb(16, 43, 124);
   top: 0;
   bottom: 0;
   left: 50%;
@@ -85,10 +85,10 @@
 }
 
 .time {
-  color: rgb(158, 60, 43);
+  color: rgb(17, 65, 158);
   margin: 5px;
 }
 
 .activity {
-  margin: 5px;
+  margin: 2px 0px;
 }

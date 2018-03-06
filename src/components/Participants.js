@@ -14,7 +14,7 @@ class Participants extends PureComponent {
 
   render() {
     return (
-      <div className="Participants block">
+      <div className="Participants block"  id="participants">
         <h1>Participants</h1>
         <br/>
         <ul className="participants-list">

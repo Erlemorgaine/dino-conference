@@ -1,62 +1,161 @@
 const weekSchedule = [{
-  day: 'Day 1: February 1st',
+  day: 'Day 1: September 10th',
   schedule: [{
-    time: '9:00-10:00',
-    activity: 'sth cool'
+    time: '9:00-9:30',
+    activity: 'Registration'
   },
   {
-    time: '10:00-10:30',
-    activity: 'lots of nice math'},
-    {
-      time: '11:00-12:30',
-      activity: 'being happy'},
-      {
-        time: '12:30-13:30',
-        activity: 'eating lots'}],
+    time: '9:30-10:30',
+    activity: 'Course I, class 1'
+  },
+  {
+    time: '10:30-11:00',
+    activity: 'Coffee break + Registration'
+  },
+  {
+    time: '11:00-12:00',
+    activity: 'Course II, class 1'
+  },
+  {
+    time: '12:15-13:15',
+    activity: 'Course III, class 1'
+  },
+  {
+    time: '13:15-16:00',
+    activity: 'Lunch break'
+  },
+  {
+    time: '16:00-17:00',
+    activity: 'Course IV, class 1'
+  },
+  {
+    time: '17:00-17:30',
+    activity: 'Coffee break'
+  },
+  {
+    time: '17:30-18:30',
+    activity: 'Research talk 1'
+  }],
   _id: 0
 },
 {
-  day: 'Day 2: February 2nd',
+  day: 'Day 2: September 11th',
   schedule: [{
-    time: '9:00-10:00',
-    activity: 'sth more cool'
+    time: '9:30-10:30',
+    activity: 'Course I, class 2'
   },
   {
-    time: '10:00-10:30',
-    activity: 'lots of awesome math'}],
+    time: '10:30-11:00',
+    activity: 'Coffee break'
+  },
+  {
+    time: '11:00-12:00',
+    activity: 'Course II, class 2'
+  },
+  {
+    time: '12:15-13:15',
+    activity: 'Course III, class 2'
+  },
+  {
+    time: '13:15-16:00',
+    activity: 'Lunch break'
+  },
+  {
+    time: '16:00-17:00',
+    activity: 'Research talk 2'
+  },
+  {
+    time: '17:00-17:30',
+    activity: 'Coffee break'
+  },
+  {
+    time: '17:30-18:30',
+    activity: 'Questions session'
+  },
+  {
+    time: '20:00--',
+    activity: 'Social dinner'
+  }],
   _id: 1
 },
 {
-  day: 'Day 3: February 3rd',
+  day: 'Day 3: September 12th',
   schedule: [{
-    time: '9:00-10:00',
-    activity: 'sth even more cool'
+    time: '9:30-10:30',
+    activity: 'Course IV, class 2'
   },
   {
-    time: '10:00-10:30',
-    activity: 'lots of fantastic math'}],
+    time: '10:30-11:00',
+    activity: 'Coffee break'
+  },
+  {
+    time: '11:00-12:00',
+    activity: 'Course I, class 3'
+  },
+  {
+    time: '12:15-13:15',
+    activity: 'Course II, class 3'
+  },
+  {
+    time: '13:15-16:00',
+    activity: 'Lunch break'
+  }],
   _id: 2
 },
 {
-  day: 'Day 4: February 4th',
+  day: 'Day 4: September 13th',
   schedule: [{
-    time: '9:00-10:00',
-    activity: 'sth awesome'
+    time: '9:30-10:30',
+    activity: 'Course III, class 3'
   },
   {
-    time: '10:00-10:30',
-    activity: 'lots of cool math'}],
+    time: '10:30-11:00',
+    activity: 'Coffee break'
+  },
+  {
+    time: '11:00-12:00',
+    activity: 'Course IV, class 3'
+  },
+  {
+    time: '12:15-13:15',
+    activity: 'Questions session'
+  },
+  {
+    time: '13:15-16:00',
+    activity: 'Lunch break'
+  },
+  {
+    time: '16:00-17:00',
+    activity: 'Course I, class 4'
+  },
+  {
+    time: '17:00-17:30',
+    activity: 'Coffee break'
+  },
+  {
+    time: '17:30-18:30',
+    activity: 'Research talk 3'
+  }],
   _id: 3
 },
 {
   day: 'Day 5: February 5th',
   schedule: [{
-    time: '9:00-10:00',
-    activity: 'the coolest thing'
+    time: '9:30-10:30',
+    activity: 'Course II, class 4'
   },
   {
-    time: '10:00-10:30',
-    activity: 'lots of great math'}],
+    time: '10:30-11:00',
+    activity: 'Coffee break'
+  },
+  {
+    time: '11:00-12:00',
+    activity: 'Course III, class 4'
+  },
+  {
+    time: '12:15-13:15',
+    activity: 'Course IV, class 4'
+  }],
   _id: 4
 }]
 

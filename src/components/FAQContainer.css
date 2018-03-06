@@ -1,8 +1,7 @@
-.FAQContainer {
-  background-color: rgba(163, 121, 114, 0.08);
-}
-
 .faq-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 80px;
 }
 
@@ -10,12 +9,11 @@
   text-align: left;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15), 0 2px 2px 0 rgba(0, 0, 0, 0.15);
   margin-top: 10px;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 500px;
 }
 
 .arrow {
-  color: rgb(148, 48, 16);
+  color: rgb(17, 65, 158);
 }
 
 .faq-title {
@@ -25,12 +23,12 @@
 }
 
 .faq-title:hover {
-  color: rgb(150, 61, 49);
+  color: rgb(17, 65, 158);
   cursor: pointer;
 }
 
 .faq-content {
-  border-top: 2px solid rgb(148, 48, 16);
+  border-top: 2px solid rgb(17, 65, 158);
   background-color: white;
   padding: 20px;
   margin: 0;

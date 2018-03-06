@@ -1,12 +1,16 @@
 .Registration {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/hiroshige-03.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/Paolo19.jpg');
   background-size: 1280px;
   background-position: center;
   background-attachment: fixed;
   padding: 90px;
-  padding-bottom: 100px;
+  /* padding-bottom: 200px; */
   text-align: center;
   color: white;
+}
+
+.last-item {
+  margin-bottom: 150px;
 }
 
 *,
@@ -62,6 +66,10 @@ section.ok{
     content: "";
     border: 2px solid white;
     border-width: 0px 0 2px 2px;
+}
+
+.light-link {
+  color: rgb(45, 76, 170)
 }
 
 @keyframes bounce {

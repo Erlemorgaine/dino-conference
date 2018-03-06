@@ -1,16 +1,25 @@
 import React, { Component } from 'react'
+import background from '../images/Paolo22.jpg'
 
 class Venue extends Component {
   render() {
     return (
-      <div className="block" style={{ color: 'white', backgroundColor: 'rgb(103, 33, 10)', textAlign: 'left', width: 640,
-      height: 450 }}>
+      <div className="block" style={{
+        color: 'white',
+        backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${background})`,
+        backgroundSize: '100%', /*backgroundColor: 'rgb(16, 43, 124)',*/
+        textAlign: 'right',
+        width: 640,
+        height: 450, }}>
         <h1>Venue > </h1>
-        <h2>Some university building</h2>
+        <h2>Facolta di Scienze Matematiche, Fisiche e Naturali
+        dell'Università degli studi di Salerno, Salerno, Italy.</h2>
         <br/>
-        <h3>Some address in Germany</h3>
+        <h3>Via Giovanni Paolo II, 132 - 84084 - Fisciano (SA)</h3>
         <br/><br/>
-        <div>Lectures and seminars will take place in some room of the Department of Mathematics, on some floor of some Building.</div>
+        <div>Registration in room: TBA</div>
+        <div>Talks in room: TBA</div>
+        <div>Questions sessions in room: TBA</div>
       </div>
     );
   }

@@ -1,6 +1,7 @@
 .Cover {
-  background-image: url('../images/hiroshige-03.jpg');
-  background-size: 1280px;
+  background-image: url('../images/Paolo3.jpg');
+  width: 100%;
+  /* background-size: 1280px; */
   background-position: center;
   background-attachment: fixed;
   padding: 90px;
@@ -35,6 +36,32 @@ section.ok{
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   text-align: center;
+}
+
+.conference-head {
+   margin-bottom: 0;
+}
+
+.conference-subhead {
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.conference-dates {
+  /* align-items: center;
+  display: flex;
+  justify-content: center; */
+  position : absolute;
+  width    : 300px;
+  height   : 40px;
+  left     : 50%;
+  margin-left : -150px; /* half of the width  */
+  margin-top  : -15px; /* half of the height */
+  background-color: rgb(10, 13, 66);
+  padding: 10px;
+  /* margin-bottom: 30px; */
+  /* margin-left: 20%;
+  margin-right: 20%; */
 }
 
 .scroll-down {

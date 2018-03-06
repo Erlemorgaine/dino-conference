@@ -2,9 +2,29 @@ h1 {
   margin-bottom: 20px;
 }
 
+a {
+  color: rgb(16, 43, 124)
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 1;
+  left: 0;
+  margin-left: 10px;
+  margin-top: 30px;
+  font-size: 0.8em;
+  color: white;
+  text-align: left;
+}
+
 .block {
   padding: 100px 60px 40px;
   text-align: center;
+}
+
+.color-block {
+  background-color: rgb(234, 240, 247)
 }
 
 .text {

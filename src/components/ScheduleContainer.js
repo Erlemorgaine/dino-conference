@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react'
 import ScheduleButton from './ScheduleButton'
 import ScheduleItem from './ScheduleItem'
-import './ScheduleContainer.css'
 
 class ScheduleContainer extends PureComponent {
   constructor(props) {
@@ -32,9 +31,8 @@ class ScheduleContainer extends PureComponent {
 
   render() {
     return (
-      <div className="ScheduleContainer block">
-        <h1>Schedule Detail</h1>
-        <div className="text">Tijdens het Trias, 251 tot 200 miljoen jaar geleden, lag vrijwel alle continentale massa bij elkaar in het supercontinent Pangea. Uit reptielen van de groep der Archosauria — waarvan tegenwoordig alleen nog de krokodillen en de vogels over zijn — ontstonden de eerste dinosauriërs. De meer oorspronkelijke voorouders binnen de archosauriërs waren vermoedelijk kleine jagers die zich op vier poten voortbewogen. De poten stonden recht onder het lichaam in plaats van ernaast, zoals bij eerdere reptielen. Later ontstonden roofdieren die op twee poten rondrenden, de eerste Dinosauromorpha.</div>
+      <div className="ScheduleContainer block color-block"  id="schedule">
+        <h1>Schedule</h1>
         { this.props.weekSchedule.map(this.renderButton) }
         { this.renderItem(this.state.day) }
       </div>

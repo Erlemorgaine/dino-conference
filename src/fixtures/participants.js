@@ -4,73 +4,12 @@ const participants = [
     institute: 'University of Mainz'
   },
   {
-    name: 'Dino Festi',
+    name: 'Ariyan Javanpeykar',
     institute: 'University of Mainz'
   },
   {
-    name: 'Dino Festi',
+    name: 'Davide Veniani',
     institute: 'University of Mainz'
-  },
-  {
-    name: 'Dino Festi',
-    institute: 'University of Mainz'
-  },
-  {
-    name: 'Dino Festi',
-    institute: 'University of Mainz'
-  },
-  {
-    name: 'Dino Festi',
-    institute: 'University of Mainz'
-  },
-  {
-    name: 'Dino Festi',
-    institute: 'University of Mainz'
-  },
-  {
-    name: 'Dino Festi',
-    institute: 'University of Mainz'
-  },
-  {
-    name: 'Dino Festi',
-    institute: 'University of Mainz'
-  },
-  {
-    name: 'Dino Festi',
-    institute: 'University of Mainz'
-  },
-  {
-    name: 'Dino Festi',
-    institute: 'University of Mainz'
-  },
-  {
-    name: 'Dino Festi',
-    institute: 'University of Mainz'
-  },
-  {
-    name: 'Dino Festi',
-    institute: 'University of Mainz'
-  },
-  {
-    name: 'Dino Festi',
-    institute: 'University of Mainz'
-  },
-  {
-    name: 'Dino Festi',
-    institute: 'University of Mainz'
-  },
-  {
-    name: 'Dino Festi',
-    institute: 'University of Mainz'
-  },
-  {
-    name: 'Dino Festi',
-    institute: 'University of Mainz'
-  },
-  {
-    name: 'Dino Festi',
-    institute: 'University of Mainz'
-  }
-]
+  }]
 
 export default participants

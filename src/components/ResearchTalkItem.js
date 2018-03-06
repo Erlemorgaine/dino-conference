@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
-import './SpeakerItem.css'
+import './ResearchTalkItem.css'
 
-class SpeakerItem extends PureComponent {
+class ResearchTalkItem extends PureComponent {
   constructor(props) {
     super(props)
     this.state = {
@@ -32,19 +32,19 @@ class SpeakerItem extends PureComponent {
   }
 
   render() {
-    const { speaker, index } = this.props
+    const { researchTalk, index } = this.props
 
     return (
-      <div className="speaker">
-        { speaker.picture ? <img className="speaker-image" src={ speaker.picture } alt={ speaker.name }/> : ''}
-        <div className="name">{ speaker.name }</div>
-        <a className="website" href={ speaker.website }>Personal website</a>
-        <div className="lecture">{ `"${speaker.lecture}"` }</div>
+      <div className="researchTalk">
+        { researchTalk.picture ? <img className="researchTalk-image" src={ researchTalk.picture } alt={ researchTalk.name }/> : ''}
+        <div className="name">{ researchTalk.name }</div>
+        <a className="website" href={ researchTalk.website }>Personal website</a>
+        <div className="lecture">{ `"${researchTalk.lecture}"` }</div>
         <div className="abstract" onClick={() => this.setContent(index)}>Abstract</div>
-        { this.showContent(speaker.abstract, index) }
+        { this.showContent(researchTalk.abstract, index) }
       </div>
     )
   }
 }
 
-export default SpeakerItem
+export default ResearchTalkItem

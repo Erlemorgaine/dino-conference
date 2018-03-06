@@ -1,0 +1,18 @@
+.Navigation {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 150px;
+  width: 100%;
+}
+
+.nav-item {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+
+.nav-link {
+  color: rgb(10, 13, 66);
+}

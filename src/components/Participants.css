@@ -1,6 +1,6 @@
-.Participants {
+/* .Participants {
   background-color: rgba(163, 121, 114, 0.08);
-}
+} */
 
 /* .participants-list {
   text-align: left;
@@ -14,7 +14,6 @@
   font-size: 1.2em;
 }
 
-
 .participants-list {
     -moz-column-count: 2;
     -moz-column-gap: 20px;
@@ -23,6 +22,6 @@
     column-count: 2;
     column-gap: 10px;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-bottom: 80px;
 }
