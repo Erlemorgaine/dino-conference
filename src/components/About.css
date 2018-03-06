@@ -1,9 +1,15 @@
+.About {
+  width: 100%;
+}
+
 .about-text {
   text-align: left;
+  margin-left: 30px;
 }
 
 .organisers {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .organisers-list {
@@ -12,4 +18,22 @@
 
 .organisers-item {
   flex-direction: column;
+}
+
+.about-block {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.about-item {
+  max-width: 550px;
+}
+
+.university-picture {
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }

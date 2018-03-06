@@ -9,12 +9,18 @@ a {
 }
 
 .speaker {
+  background-color: rgb(237, 245, 250);
   margin: 30px;
-  max-width: 400px;
+  padding: 10px;
+  padding-bottom: 20px;
+  width: 500px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15), 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+  /* border-radius: 15px; */
 }
 
 .name {
   margin: 5px;
+  font-weight: bold;
 }
 
 .website {
@@ -35,6 +41,7 @@ a {
 }
 
 .abstract-content {
+  background-color: white;
   margin-top: 10px;
   padding: 20px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15), 0 2px 2px 0 rgba(0, 0, 0, 0.15);

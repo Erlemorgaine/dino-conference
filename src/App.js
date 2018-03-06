@@ -28,7 +28,7 @@ class App extends Component {
           <ResearchTalkContainer researchTalks={researchTalks}/>
           <ScheduleContainer weekSchedule={weekSchedule}/>
           <Participants participants={participants}/>
-          <div id="venue" style={{ display: 'flex', flexWrap: 'wrap', }}>
+          <div id="venue" style={{ display: 'flex', flexWrap: 'wrap' }}>
             <iframe
               title="map"
               width="640"

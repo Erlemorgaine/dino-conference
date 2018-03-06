@@ -1,6 +1,6 @@
 .Registration {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/Paolo19.jpg');
-  background-size: 1280px;
+  background-size: 100%;
   background-position: center;
   background-attachment: fixed;
   padding: 90px;

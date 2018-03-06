@@ -25,7 +25,7 @@ class FAQContainer extends PureComponent {
 
     if (this.state.show === index) {
       return (
-        <div className="faq-content">
+        <div className="faq-content plain-text">
           { contentArray.map((c) => {
             if (c === '') {
               return(<br/>)

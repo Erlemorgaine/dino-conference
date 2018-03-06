@@ -1,13 +1,9 @@
-// import dino from '../images/dino.jpeg'
-// import sailorMoon from '../images/sailor-moon.jpg'
-// import bubbles from '../images/bubbles.jpg'
-
 const speakers = [
   {
     name: 'Jarod Alper',
     picture: '',
     website: 'https://sites.math.washington.edu/~jarod/',
-    lecture: 'Title',
+    lecture: 'Introduction to moduli spaces of sheaves',
     abstract: ''
   },
   {

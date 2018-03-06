@@ -10,7 +10,12 @@ a {
 }
 
 .researchTalk {
+  background-color: rgb(237, 245, 250);
   margin: 30px;
+  padding: 10px;
+  padding-bottom: 20px;
+  width: 500px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15), 0 2px 2px 0 rgba(0, 0, 0, 0.15);
 }
 
 .name {

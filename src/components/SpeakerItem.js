@@ -23,7 +23,7 @@ class SpeakerItem extends PureComponent {
   showContent = (content, index) => {
     if (this.state.show === index) {
       return (
-        <div className="abstract-content">
+        <div className="abstract-content plain-text">
           { content }
         </div>
       )
@@ -35,7 +35,7 @@ class SpeakerItem extends PureComponent {
     const { speaker, index } = this.props
 
     return (
-      <div className="speaker">
+      <div className="speaker text-center">
         { speaker.picture ? <img className="speaker-image" src={ speaker.picture } alt={ speaker.name }/> : ''}
         <div className="name">{ speaker.name }</div>
         <a className="website" href={ speaker.website }>Personal website</a>

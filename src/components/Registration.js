@@ -14,7 +14,7 @@ class Registration extends PureComponent {
 <p>If you wish to apply for funding please indicate so in the application form, within June 30th.</p>
 <br/>
 
-<p className='last-item'>In order to attend the school please fill in this <a className='light-link' href="">form</a>.</p>
+<p className='last-item'>In order to attend the school please fill in this <a className='light-link' href="http://www.sfb45.de/private/conferences/Registration_for_the_Summer_School_in_Salerno_2018">form</a>.</p>
         </div>
         <footer>
           <div>Website inspired by the website for GABY2018, see:
