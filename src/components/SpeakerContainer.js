@@ -14,7 +14,11 @@ class SpeakerContainer extends PureComponent {
       <div id='speakers' className="SpeakerContainer block">
         <h1>Mini-course speakers</h1>
         <div style={{ boxSizing: 'border-box',
-        display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+          display: 'flex',
+          flexWrap: 'wrap',
+          justifyContent: 'center',
+          alignItems: 'flex-start' }}
+        >
           { this.props.speakers.map(this.renderSpeaker) }
         </div>
       </div>

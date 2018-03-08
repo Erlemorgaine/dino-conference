@@ -37,8 +37,7 @@ class ResearchTalkItem extends PureComponent {
     return (
       <div className="researchTalk">
         { researchTalk.picture ? <img className="researchTalk-image" src={ researchTalk.picture } alt={ researchTalk.name }/> : ''}
-        <div className="name">{ researchTalk.name }</div>
-        <a className="website" href={ researchTalk.website }>Personal website</a>
+        <a className="website" href={ researchTalk.website }>{ researchTalk.name }</a>
         <div className="lecture">{ `"${researchTalk.lecture}"` }</div>
         <div className="abstract" onClick={() => this.setContent(index)}>Abstract</div>
         { this.showContent(researchTalk.abstract, index) }

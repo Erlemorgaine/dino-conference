@@ -7,9 +7,11 @@ class Venue extends Component {
       <div className="block" style={{
         color: 'white',
         backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${background})`,
-        backgroundSize: '100%', /*backgroundColor: 'rgb(16, 43, 124)',*/
+        backgroundSize: '100%',
+        minWidth: 640,
+        width: '50%',
         textAlign: 'right',
-        width: 640,
+        // width: 640,
         height: 450, }}>
         <h1>Venue > </h1>
         <h2>Facolta di Scienze Matematiche, Fisiche e Naturali

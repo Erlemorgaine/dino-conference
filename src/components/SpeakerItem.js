@@ -37,8 +37,7 @@ class SpeakerItem extends PureComponent {
     return (
       <div className="speaker text-center">
         { speaker.picture ? <img className="speaker-image" src={ speaker.picture } alt={ speaker.name }/> : ''}
-        <div className="name">{ speaker.name }</div>
-        <a className="website" href={ speaker.website }>Personal website</a>
+        <a className="website" href={ speaker.website }>{ speaker.name }</a>
         <div className="lecture">{ `"${speaker.lecture}"` }</div>
         <div className="abstract" onClick={() => this.setContent(index)}>Abstract</div>
         { this.showContent(speaker.abstract, index) }

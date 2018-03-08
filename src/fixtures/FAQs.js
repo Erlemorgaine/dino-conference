@@ -5,7 +5,7 @@ const faqs = [
     There are several free parking lots on campus. `,
   },
   {
-    title: 'Accomodation',
+    title: 'Accommodation',
     content: 'Suggested hotels are:\n\n- Grand hotel Salerno\n- Plaza hotel\n\nboth close to the train station of Salerno and in walking distance from the city center.\n\n- Hotel dei principati\n\nin Baronissi, only one bus stop away from the university.',
   },
   {

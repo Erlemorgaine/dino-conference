@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
-import universityPicture from '../images/UnisaDipartimento.jpg'
+import universityPicture from '../images/Paolo31.jpg'
 import './About.css'
 
 class About extends Component {
   render() {
     return (
       <div className="About block color-block about-block" id="about">
-        <div className="about-item university-picture">
-          <img src={universityPicture} alt="University of Salerno"/>
+        <div className="about-item">
+          <img className="university-picture" src={universityPicture} alt="University of Salerno"/>
         </div>
         <div className="about-item">
-          <h1 className="about">About The Conference</h1>
+          <h1 className="about">About the conference</h1>
           <div className="about-text plain-text">
             <p>This is a Summer School of the SFB/TRR 45 Bonn-Essen-Mainz financed by the DFG (Deutsche Forschungsgemeinschaft). It will take place from September 10th until September 14th, 2018 at the Università degli studi di Salerno (Italy). To register, please scroll down.
             </p>
@@ -25,9 +25,9 @@ class About extends Component {
             <div className='organisers'>
               <strong className='organisers-list'>Organisers:</strong>
               <ul className='organisers-list'>
-                <li className='organisers-item'>Dino Festi - <a href="">Personal website</a></li>
-                <li className='organisers-item'>Ariyan Javanpeykar - <a href="">Personal website</a></li>
-                <li className='organisers-item'>Davide Cesare Veniani - <a href="">Personal website</a></li>
+                <li className='organisers-item'><a href="https://www.math.leidenuniv.nl/~festid1/">Dino Festi</a></li>
+                <li className='organisers-item'><a href="https://www.agtz.mathematik.uni-mainz.de/arakelov-geometrie/junior-prof-dr-ariyan-javanpeykar/">Ariyan Javanpeykar</a></li>
+                <li className='organisers-item'><a href="http://www.staff.uni-mainz.de/veniani/">Davide Cesare Veniani</a></li>
               </ul>
             </div>
           </div>

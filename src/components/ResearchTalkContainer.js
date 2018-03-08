@@ -14,7 +14,7 @@ class ResearchTalkContainer extends PureComponent {
       <div className="ResearchTalkContainer block">
         <h1>Research talk speakers</h1>
         <div style={{ boxSizing: 'border-box',
-        display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+        display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'flex-start' }}>
           { this.props.researchTalks.map(this.renderResearchTalk) }
         </div>
       </div>

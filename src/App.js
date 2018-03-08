@@ -31,9 +31,8 @@ class App extends Component {
           <div id="venue" style={{ display: 'flex', flexWrap: 'wrap' }}>
             <iframe
               title="map"
-              width="640"
               height="450"
-              frameBorder="0" style={{border:0}}
+              frameBorder="0" style={{border: 0, minWidth: 640, width: '50%'}}
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCEmJhLjMoYRrFfYF_oWOSyuCesrINhVLU&q=Dipartimento+di+Matematica,Strada+Provinciale+24a,+Fisciano,+Salerno,+Italy" allowFullScreen>
             </iframe>
             <Venue />

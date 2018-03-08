@@ -70,7 +70,7 @@ const weekSchedule = [{
   },
   {
     time: '17:30-18:30',
-    activity: 'Questions session'
+    activity: 'Question session'
   },
   {
     time: '20:00--',
@@ -118,7 +118,7 @@ const weekSchedule = [{
   },
   {
     time: '12:15-13:15',
-    activity: 'Questions session'
+    activity: 'Question session'
   },
   {
     time: '13:15-16:00',
@@ -155,6 +155,10 @@ const weekSchedule = [{
   {
     time: '12:15-13:15',
     activity: 'Course IV, class 4'
+  },
+  {
+    time: '',
+    activity: 'Free afternoon'
   }],
   _id: 4
 }]

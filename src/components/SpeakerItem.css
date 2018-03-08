@@ -18,13 +18,9 @@ a {
   /* border-radius: 15px; */
 }
 
-.name {
-  margin: 5px;
-  font-weight: bold;
-}
-
 .website {
   margin: 5px;
+  font-weight: bold;
 }
 
 .lecture {
