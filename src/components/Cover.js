@@ -8,7 +8,6 @@ import uniLogo from '../images/JGU.png'
 class Cover extends PureComponent {
 
   render() {
-    //const OPTIONS = { endDate: '04/01/2018 09:40 AM'}
     return (
       <div className="Cover">
         <div className="logos">
