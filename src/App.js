@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
+import Navigation from './components/Navigation'
 import Cover from './components/Cover.js'
 import About from './components/About.js'
 import ScheduleContainer from './components/ScheduleContainer'
@@ -22,6 +23,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+          <Navigation />
           <Cover />
           <About />
           <SpeakerContainer speakers={speakers}/>

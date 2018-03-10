@@ -1,18 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Karma|');
+
 .Cover {
   background-image: url('../images/Paolo3.jpg');
   width: 100%;
   /* background-size: 1280px; */
   background-position: center;
   background-attachment: fixed;
-  padding: 90px;
-  padding-bottom: 350px;
-  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 250px;
+}
+
+.logos {
+  margin-left: 20%;
 }
 
 .logo {
+  margin: 30px;
+  text-align: left;
+}
+
+.sfb {
+  width: 250px;
+  height: 100px;
+}
+
+.unisa {
   width: 100px;
   height: 100px;
-  margin: 20px;
+}
+
+.mainz {
+  width: 100px;
+  height: 100px;
 }
 
 *,
@@ -31,6 +50,10 @@ section {
 }
 section.ok{
   background-color: #555;
+}
+
+.conference-intro, .conference-subhead {
+  font-family: 'Karma', serif;
 }
 
 .cover-text {
