@@ -9,8 +9,8 @@ const researchTalks = [
   {
     name: 'Simone Diverio',
     picture: '',
-    website: 'https://webusers.imj-prg.fr/~simone.diverio/Maison_Page.html',
-    lecture: 'TBA',
+    website: 'https://sites.google.com/a/uniroma1.it/simonediverio/',
+    lecture: 'Finding many rational curves on smooth or singular Calabi-Yau manifolds',
     abstract: 'TBA'
   },
   {

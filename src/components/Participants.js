@@ -7,7 +7,7 @@ class Participants extends PureComponent {
     return(
       <li className="participant-item" key={index}>
         <span className="participant-name">{participant.name} </span>
-        <span>({participant.institute})</span>
+        <div>({participant.institute})</div>
       </li>
     )
   }

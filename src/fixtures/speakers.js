@@ -10,7 +10,7 @@ const speakers = [
     name: 'Ekaterina Amerik',
     picture: '',
     website: 'https://www.math.u-psud.fr/~amerik/',
-    lecture: 'TBA',
+    lecture: 'p-adic uniformization and algebraic dynamics',
     abstract: 'TBA'
   },
   {

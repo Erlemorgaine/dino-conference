@@ -97,8 +97,8 @@ const weekSchedule = [{
     activity: 'Course II, class 3'
   },
   {
-    time: '13:15-16:00',
-    activity: 'Lunch break'
+    time: '',
+    activity: 'Free afternoon'
   }],
   _id: 2
 },
@@ -139,7 +139,7 @@ const weekSchedule = [{
   _id: 3
 },
 {
-  day: 'Day 5: February 5th',
+  day: 'Day 5: September 14th',
   schedule: [{
     time: '9:30-10:30',
     activity: 'Course II, class 4'
@@ -158,7 +158,7 @@ const weekSchedule = [{
   },
   {
     time: '',
-    activity: 'Free afternoon'
+    activity: 'End of the school'
   }],
   _id: 4
 }]

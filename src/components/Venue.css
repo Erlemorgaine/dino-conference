@@ -1,0 +1,17 @@
+.venue-item {
+  height: 450px;
+  border: 0;
+  width: 100%;
+}
+
+.venue-text {
+  color: white;
+  background-size: 100%;
+  height: 450px;
+}
+
+@media (min-width: 900px) {
+  .venue-item {
+    width: 50%;
+  }
+}

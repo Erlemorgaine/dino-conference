@@ -4,7 +4,6 @@
 
 .about-text {
   text-align: left;
-  margin-left: 10%;
 }
 
 .organisers {
@@ -27,14 +26,25 @@
 }
 
 .about-item {
-  min-width: 500px;
-  max-width: 600px;
-  width: 50%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
 }
 
 .university-picture {
-  height: 400px;
-  overflow: hidden;
+  max-width: 100%;
+  max-height: 400px;
   margin-bottom: 50px;
-  margin-right: 10%;
+  overflow: hidden;
+}
+
+@media (min-width: 900px) {
+  .about-item {
+    width: 50%;
+  }
+
+  .about-text {
+    margin-left: 5%;
+  }
 }
